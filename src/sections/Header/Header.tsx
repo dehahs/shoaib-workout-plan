@@ -18,7 +18,7 @@ import useTheme from '@/store/theme';
 
 // import { HotKeysButton } from './styled';
 import { getRandomJoke } from './utils';
-
+import { UserMenu } from '@/components/UserMenu/UserMenu';
 function Header() {
   const [, sidebarActions] = useSidebar();
   const [theme, themeActions] = useTheme();
@@ -90,6 +90,8 @@ function Header() {
                 <ThemeIcon />
               </IconButton>
             </Tooltip>
+            {/* <Divider orientation="vertical" flexItem /> */}
+            <UserMenu />
           </FlexBox>
         </Toolbar>
       </AppBar>

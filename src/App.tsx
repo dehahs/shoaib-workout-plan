@@ -11,20 +11,23 @@ import HotKeys from '@/sections/HotKeys';
 import Notifications from '@/sections/Notifications';
 import SW from '@/sections/SW';
 import Sidebar from '@/sections/Sidebar';
+import { AuthProvider } from './contexts/AuthContext';
 
 function App() {
   return (
-    <Fragment>
-      <CssBaseline />
-      <Notifications />
-      <HotKeys />
-      <SW />
-      <BrowserRouter>
-        <Header />
-        <Sidebar />
-        <Pages />
-      </BrowserRouter>
-    </Fragment>
+    <AuthProvider>
+      <Fragment>
+        <CssBaseline />
+        <Notifications />
+        <HotKeys />
+        <SW />
+        <BrowserRouter>
+          <Header />
+          <Sidebar />
+          <Pages />
+        </BrowserRouter>
+      </Fragment>
+    </AuthProvider>
   );
 }
 
