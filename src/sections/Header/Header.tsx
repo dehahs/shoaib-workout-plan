@@ -79,7 +79,8 @@ function Header() {
               </IconButton>
             </Tooltip> */}
             {/* <Divider orientation="vertical" flexItem /> */}
-            <Tooltip title="Switch theme" arrow>
+
+            {/* <Tooltip title="Switch theme" arrow>
               <IconButton
                 color="info"
                 edge="end"
@@ -89,7 +90,8 @@ function Header() {
               >
                 <ThemeIcon />
               </IconButton>
-            </Tooltip>
+            </Tooltip> */}
+            
             {/* <Divider orientation="vertical" flexItem /> */}
             <UserMenu />
           </FlexBox>

@@ -23,7 +23,7 @@ export function UserMenu() {
     //   style={{ padding: '10px 20px', margin: '20px' }}
     return (
       <button onClick={signInWithGoogle}>
-        Sign in with Google
+        Sign in
       </button>
     );
   }

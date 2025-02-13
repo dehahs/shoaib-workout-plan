@@ -2,11 +2,11 @@ import isMobile from '@/utils/is-mobile';
 
 import type { Notifications } from './types';
 
-const title = 'React PWA';
+const title = 'Shoaib\'s Workout Plan';
 
 const email = 'dehahs@gmail.com';
 
-const repository = 'https://github.com/suren-atoyan/react-pwa';
+const repository = 'https://github.com/dehahs/shoaib-workout-plan';
 
 const messages = {
   app: {
@@ -24,7 +24,7 @@ const messages = {
   images: {
     failed: 'something went wrong during image loading :(',
   },
-  404: 'Hey bro? What are you looking for?',
+  404: 'Do you even lift bro?',
 };
 
 const dateFormat = 'MMMM DD, YYYY';
@@ -50,8 +50,8 @@ const defaultMetaTags = {
   image: '/cover.png',
   description: 'Starter kit for modern web applications',
 };
-const giphy404 = 'https://giphy.com/embed/xTiN0L7EW5trfOvEk0';
-
+const giphy404 = 'https://giphy.com/embed/TyuwvnAzEPVFC';
+//https://giphy.com/embed/TyuwvnAzEPVFC" width="410" height="480" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/lady-gym-TyuwvnAzEPVFC
 export {
   loader,
   notifications,
