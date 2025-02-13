@@ -28,3 +28,11 @@ dist-ssr
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+
+
+# Initial setup
+# npm install
+# npm run dev
+# npm install -g firebase-tools 
+# firebase login <- login to firebase using google account
+# npm install firebase @firebase/app @firebase/auth
