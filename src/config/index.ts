@@ -2,11 +2,11 @@ import isMobile from '@/utils/is-mobile';
 
 import type { Notifications } from './types';
 
-const title = 'Shoaib\'s Workout Plan';
+const title = 'Lazy Lifts';
 
 const email = 'dehahs@gmail.com';
 
-const repository = 'https://github.com/dehahs/shoaib-workout-plan';
+const repository = 'https://github.com/dehahs/lazy-lifts';
 
 const messages = {
   app: {
